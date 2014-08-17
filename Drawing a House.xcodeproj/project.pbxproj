@@ -21,6 +21,7 @@
 		13D9AC6C197799F500BD9A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D9AC4E197799F500BD9A5B /* UIKit.framework */; };
 		13D9AC74197799F500BD9A5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D9AC72197799F500BD9A5B /* InfoPlist.strings */; };
 		13D9AC76197799F500BD9A5B /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9AC75197799F500BD9A5B /* Drawing_a_HouseTests.m */; };
+		13D9AC8119779AD000BD9A5B /* MRSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9AC8019779AD000BD9A5B /* MRSuperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		13D9AC71197799F500BD9A5B /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		13D9AC73197799F500BD9A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13D9AC75197799F500BD9A5B /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		13D9AC7F19779AD000BD9A5B /* MRSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSuperView.h; sourceTree = "<group>"; };
+		13D9AC8019779AD000BD9A5B /* MRSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSuperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				13D9AC5C197799F500BD9A5B /* Main.storyboard */,
 				13D9AC5F197799F500BD9A5B /* MRViewController.h */,
 				13D9AC60197799F500BD9A5B /* MRViewController.m */,
+				13D9AC7F19779AD000BD9A5B /* MRSuperView.h */,
+				13D9AC8019779AD000BD9A5B /* MRSuperView.m */,
 				13D9AC62197799F500BD9A5B /* Images.xcassets */,
 				13D9AC51197799F500BD9A5B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D9AC57197799F500BD9A5B /* main.m in Sources */,
+				13D9AC8119779AD000BD9A5B /* MRSuperView.m in Sources */,
 				13D9AC61197799F500BD9A5B /* MRViewController.m in Sources */,
 				13D9AC5B197799F500BD9A5B /* MRAppDelegate.m in Sources */,
 			);
